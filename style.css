@@ -174,17 +174,18 @@ button:hover {
 @media (max-width: 768px) {
 
     .navbar {
-        flex-direction: row;   /* 👈 important */
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 10px 15px;
     }
 
     .navbar ul {
-        flex-direction: row;   /* 👈 keep in one line */
+        flex-direction: row;
         gap: 10px;
-        flex-wrap: wrap;      /* 👈 allows wrapping nicely */
+        flex-wrap: wrap;
         justify-content: center;
+        overflow-x: auto; /* 👈 EXTRA line (from your question) */
     }
 
     .navbar h2 {
@@ -196,3 +197,4 @@ button:hover {
     }
 
 }
+overflow-x: auto;
