@@ -185,7 +185,7 @@ button:hover {
         gap: 10px;
         flex-wrap: wrap;
         justify-content: center;
-        overflow-x: auto; /* 👈 EXTRA line (from your question) */
+        overflow-x: auto; /* ✅ correct place */
     }
 
     .navbar h2 {
@@ -197,4 +197,3 @@ button:hover {
     }
 
 }
-overflow-x: auto;
