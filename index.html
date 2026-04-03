@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <h2>Shiva</h2>
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="container">
+
+        <img src="profile.jpg" class="profile">
+
+        <h1 class="gradient-text">Hi, I'm Shiva 👋</h1>
+        <h2>Frontend Developer</h2>
+        <p>I build modern, clean and responsive websites.</p>
+
+        <button onclick="document.getElementById('projects').scrollIntoView()">
+            View My Work
+        </button>
+
+        <div class="socials">
+            <a href="https://www.instagram.com/shiva.ynn/" target="_blank">
+    Instagram
+</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>I am a beginner developer learning web development and building projects.</p>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+    </ul>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A simple personal portfolio using HTML & CSS.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>A modern landing page design.</p>
+    </div>
+</section>
+
+</body>
+</html>
