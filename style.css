@@ -197,3 +197,7 @@ button:hover {
     }
 
 }
+.emoji {
+    background: none;
+    color: initial;
+}
